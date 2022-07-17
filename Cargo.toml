@@ -1,0 +1,15 @@
+[package]
+name = "rust-rppico-experiments"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rp-pico = "0.4.1"
+embedded-time = "0.12.0"
+embedded-hal ="0.2.5"
+panic-halt= "0.2.0"
+cortex-m-rt = "0.7"
+cortex-m = "0.7.2"
+
